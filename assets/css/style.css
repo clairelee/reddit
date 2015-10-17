@@ -1,106 +1,142 @@
 body {	/*the outer layer of the site and global style attributes*/
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Open Sans", "Helvetica Neue", "Oxygen", Helvetica, Arial, sans-serif;
 	margin: 0px;
-	background: #f7f5f2;
+	background: #FFFFFF;
 }
 
 #container{
 	width:1000px;
-	margin: auto;
+	margin: 0 auto;
 }
 
-#top {
-	display: block;
-	height: 40px;
-}
 
-#logo img{
+.topbar-text img{
   	height: 40px;
+  	position: relative;
+  	top: -10px;
+  	left: -10px;
 }
 
 #topbar {
 	padding: 10px;
-	background: #EBFFFF;
 	position: relative;
 	width: 100%;
 	padding: 10px;
 	height: 40px;
+	float: left;
+	border-bottom: 2px dotted #5485bb;
 }
 
 .topbar-text {
 	color: black;
 	padding: 6px;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 700;
 	line-height: 30px;
 	float: left;
+	font-family: "Oxygen";
+	margin-left: 5px;
+	letter-spacing: 1px;
 }
 
 #sidebar {
-    width: 120px;
+		float: left;
+		width: 15%;
     resize:both;
-    background: blue;
     position: relative;
     height: 100%;
-    top: 0px;
-    color: white;
-    left: 0px;
+    top: 15px;
+    color: #5485bb;
+		margin-top: 5px;
+    margin-left: 5px;
+		border: 1px solid #5485bb;
+		font-family: "Oxygen";
 }
 
-#sidebar-text {
+.sidebar-text {
     padding: 10px;
+		letter-spacing: 0.4px;
+		font-weight: 400;
+		font-size: 14px;
+}
+
+#middle {
+	float: left;
+	position: relative;
+	width: 50%;
+	margin-left: 15px;
+	margin-top: 10px;
 }
 
 #content {
 	padding: 10px;
 	position: relative;
-	top: 200px;
-	margin-left:200px;
+
+	margin-bottom: 5px;
+	width: 500px;
+	height: 80px;
+	line-height: 1.5;
+	border-bottom: 1px solid black;
 }
 
 #pic img { /*container for picture*/
 	height: 60px;
 	float: left;
 	padding: 10px;
-	/* make picture have a max height*/
-	/* have picture to the left of the other post stuff*/
 }
 
-#post-title{
-
+.post-title{
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 14px;
 }
 
-#information {
-	float: left;
+.information {
+	font-size: 12px;
 }
 
-#links {
+.links {
 	float: left;
 	margin-right: 8px;
-	position: relative;
-	left: -250px;
+	font-size: 10px;
 }
 
 #rightbar {
-    width: 120px;
+		margin-top: 5px;
+		width: 20%;
     resize:both;
-    background: blue;
     position: relative;
     height: 100%;
-    top: -246px;
-    color: white;
-    left: 0px;
+    color: #5485bb;
     float:right;
+
+}
+
+.rightbar {
+	float:right;
 }
 
 #button {
 	position: relative;
-	background: #5485bb;
-	color: white;
+	background: white;
+	color: #5485bb;
 	font-size: 12px;
 	width: 180px;
 	text-align: center;
 	padding: 10px 0px;
 	margin: 10px;
+	float:right;
+	border: 1px solid #5485bb;
 }
 
+#ad {
+	float: right;
+	margin-top: 15px;
+}
+
+#ad img{
+	height: 180px;
+	float: left;
+	padding: 10px;
+}
