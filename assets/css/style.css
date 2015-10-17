@@ -79,10 +79,16 @@ body {	/*the outer layer of the site and global style attributes*/
 	border-bottom: 1px solid black;
 }
 
+#vote img{
+	height: 60px;
+	float: left;
+}
+
 #pic img { /*container for picture*/
 	height: 60px;
 	float: left;
-	padding: 10px;
+	margin-right: 15px;
+	margin-left: 15px;
 }
 
 .post-title{
