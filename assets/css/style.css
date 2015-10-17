@@ -1,0 +1,84 @@
+body {	/*the outer layer of the site and global style attributes*/
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0px;
+	background: #f7f5f2;
+}
+
+#top {
+	display: block;
+	height: 40px;
+}
+
+#logo img{
+  height: 40px;
+	color: red;
+}
+
+#topbar {
+	padding: 10px 0px;
+	background: #EBFFFF;
+	position: fixed;
+	margin-top: 20px;
+	width: 100%;
+}
+
+#topbar-text {
+	color: black;
+	padding: 0px 30px;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 30px;
+	float: left;
+}
+
+#sidebar {
+    width: 120px;
+    background: blue;
+    position: fixed;
+    height: 100%;
+    top: 50px;
+    color: white;
+}
+
+#sidebar-text {
+    padding: 10px;
+}
+
+#content {
+	padding: 10px;
+	position: relative;
+	top: 200px;
+	margin-left:200px;
+}
+
+#pic img{ /*container for picture*/
+	height: 60px;
+	float: left;
+	padding: 10px;
+	/* make picture have a max height*/
+	/* have picture to the left of the other post stuff*/
+}
+
+#post-title{
+
+}
+
+#information {
+	float: left;
+}
+
+#links {
+	float: left;
+	margin-right: 8px;
+}
+
+#button {
+	position: relative;
+	background: #5485bb;
+	color: white;
+	font-size: 12px;
+	width: 180px;
+	text-align: center;
+	padding: 10px 0px;
+	margin: 10px;
+}
