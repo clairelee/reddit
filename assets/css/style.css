@@ -4,27 +4,32 @@ body {	/*the outer layer of the site and global style attributes*/
 	background: #f7f5f2;
 }
 
+#container{
+	width:1000px;
+	margin: auto;
+}
+
 #top {
 	display: block;
 	height: 40px;
 }
 
 #logo img{
-  height: 40px;
-	color: red;
+  	height: 40px;
 }
 
 #topbar {
-	padding: 10px 0px;
+	padding: 10px;
 	background: #EBFFFF;
-	position: fixed;
-	margin-top: 20px;
+	position: relative;
 	width: 100%;
+	padding: 10px;
+	height: 40px;
 }
 
-#topbar-text {
+.topbar-text {
 	color: black;
-	padding: 0px 30px;
+	padding: 6px;
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 30px;
@@ -33,11 +38,13 @@ body {	/*the outer layer of the site and global style attributes*/
 
 #sidebar {
     width: 120px;
+    resize:both;
     background: blue;
-    position: fixed;
+    position: relative;
     height: 100%;
-    top: 50px;
+    top: 0px;
     color: white;
+    left: 0px;
 }
 
 #sidebar-text {
@@ -51,7 +58,7 @@ body {	/*the outer layer of the site and global style attributes*/
 	margin-left:200px;
 }
 
-#pic img{ /*container for picture*/
+#pic img { /*container for picture*/
 	height: 60px;
 	float: left;
 	padding: 10px;
@@ -70,6 +77,20 @@ body {	/*the outer layer of the site and global style attributes*/
 #links {
 	float: left;
 	margin-right: 8px;
+	position: relative;
+	left: -250px;
+}
+
+#rightbar {
+    width: 120px;
+    resize:both;
+    background: blue;
+    position: relative;
+    height: 100%;
+    top: -246px;
+    color: white;
+    left: 0px;
+    float:right;
 }
 
 #button {
@@ -82,3 +103,4 @@ body {	/*the outer layer of the site and global style attributes*/
 	padding: 10px 0px;
 	margin: 10px;
 }
+
